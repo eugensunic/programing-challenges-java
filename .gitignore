@@ -1,0 +1,26 @@
+# Compiled bytecode
+/target/
+/bin/
+/build/
+/out/
+*.class
+
+# IntelliJ specific files
+.idea/
+*.iml
+*.iws
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -73,6 +73,10 @@ public class Main {
         // 6.task --> transformSequence(String input)
         String orderedSequence2 = transformSequenceABC("CACCACCCCBBCAACAABCBCBBBACACACCC");
         System.out.println(orderedSequence2);
+
+        String s = "a very warm welcome in the automated system testing team";
+        int k = 5;
+        System.out.println(DrawFunctionLine.generateZickZack("a very warm welcome in the automated system testing team", k));
 //
 //
 //        //  8.task --> Excel Magic sheet
