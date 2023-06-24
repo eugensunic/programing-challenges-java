@@ -28,6 +28,7 @@ public class MorseCode {
         }
         catch (IllegalArgumentException e) {
             e.printStackTrace();
+            return "Illegal Character in String";
         }
 
         StringBuilder acc = new StringBuilder();
@@ -40,6 +41,6 @@ public class MorseCode {
             }
         }
 
-        return acc.toString();
+        return acc.toString().trim();
     }
 }

@@ -17,6 +17,7 @@ public class ExcelMagicSheet {
     }
 
     public static List<Integer> generateFollowingValues(int start, int count) {
+        if (count < 0) throw new IllegalArgumentException("Argument should be greater or equal to zero");
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             list.add(start + i);
