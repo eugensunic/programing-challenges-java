@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.example.MagicTriangle.isMagicTriangle2D;
+import static org.example.MagicTriangle.isMagicTriangleSingleList;
 
 public class MagicTriangleTest {
 
@@ -34,5 +35,13 @@ public class MagicTriangleTest {
         Assertions.assertTrue(isMagicTriangle2D(multiArray1));
         Assertions.assertTrue(isMagicTriangle2D(multiArray2));
         Assertions.assertFalse(isMagicTriangle2D(multiArray3));
+    }
+
+    @Test
+    @Description("Test that isMagicTriangleSingleList() correctly identifies magic triangles")
+    void testIsMagicTriangleSingleList() {
+        Assertions.assertTrue(isMagicTriangleSingleList(new int[]{1, 5, 3, 4, 2, 6}));
+        Assertions.assertTrue(isMagicTriangleSingleList(new int[]{2, 5, 9, 1, 6, 7, 3, 4, 8}));
+        Assertions.assertFalse(isMagicTriangleSingleList(new int[]{3, 5, 9, 1, 6, 7, 3, 4, 8}));
     }
 }

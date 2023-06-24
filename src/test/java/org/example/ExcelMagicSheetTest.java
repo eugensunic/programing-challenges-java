@@ -11,7 +11,7 @@ import java.util.List;
 public class ExcelMagicSheetTest {
     @Test
     @Description("should include values from start number and display subsequent numbers till count")
-    void checkSubsequentValues1() {
+    void checkSubsequentValues() {
         List<Integer> expectedList1 = Arrays.asList(5, 6, 7, 8);
         Assertions.assertEquals(expectedList1, ExcelMagicSheet.generateFollowingValues(5, 4));
 

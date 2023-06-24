@@ -5,9 +5,7 @@ import java.util.Set;
 
 public class MorseCode {
     public MorseCode() {
-
     }
-
     public static String toMorseCode(String value) {
         HashMap<Character, String> hashMap = new HashMap<>();
         hashMap.put('E', ".");

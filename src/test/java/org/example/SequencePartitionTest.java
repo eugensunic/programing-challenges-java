@@ -31,7 +31,7 @@ public class SequencePartitionTest {
     @ParameterizedTest
     @Description("should check for sorted characters")
     @ValueSource(strings = {"ABCBAABCCABC", "CCCCAAAABBBB", "CCCCBBBBAAAA"})
-    void checkTransformSequenceABc(String input) {
+    void checkTransformSequenceABC(String input) {
         String orderedSequence = transformSequenceABC(input);
         Assertions.assertEquals("AAAABBBBCCCC", orderedSequence);
 

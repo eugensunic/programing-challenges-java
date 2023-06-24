@@ -18,7 +18,6 @@ public class MagicTriangle {
             rightSum += row[row.length - 1];
         }
         // make 3 groups
-
         int[] lastRow = multiArray[multiArray.length - 1];
         for (int i = 0; i < lastRow.length; i++) {
             downSum += lastRow[i];

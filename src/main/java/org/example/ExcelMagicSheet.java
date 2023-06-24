@@ -25,17 +25,5 @@ public class ExcelMagicSheet {
         return list;
     }
 
-    //hash map implementation
-//    private static final HashMap<String, Integer> daysOfWeek;
-//    static {
-//        daysOfWeek = new HashMap<>();
-//        daysOfWeek.put("Monday", 1);
-//        daysOfWeek.put("Tuesday", 2);
-//        daysOfWeek.put("Wednesday", 3);
-//        daysOfWeek.put("Thursday", 4);
-//        daysOfWeek.put("Friday", 5);
-//        daysOfWeek.put("Saturday", 6);
-//        daysOfWeek.put("Sunday", 7);
-//    }
 
 }
